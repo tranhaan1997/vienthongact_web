@@ -1,5 +1,7 @@
 # Hướng dẫn xây dựng Website Viễn Thông ACT - React + Ant Design + PostgreSQL
 
+**Lưu ý:** Phần mã nguồn giao diện cũ đã được xoá để bạn có thể xây dựng frontend mới từ đầu.
+
 ## 🎯 PHÂN TÍCH CẤU TRÚC WEBSITE
 
 Website vienthongact.vn có các chức năng chính:
