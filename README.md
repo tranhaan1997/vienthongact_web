@@ -21,7 +21,7 @@ Website vienthongact.vn có các chức năng chính:
 - Routing: React Router v6
 - HTTP Client: Axios
 - Form Handling: Ant Design Form (built-in)
-- Rich Text Display: react-html-parser
+- Rich Text Display: html-react-parser
 - Charts: Ant Design Charts
 - Icons: @ant-design/icons
 - SEO: React Helmet Async
@@ -55,7 +55,7 @@ cd vienthong-act
 npm install antd @ant-design/icons
 npm install react-router-dom axios
 npm install react-helmet-async
-npm install react-html-parser
+npm install html-react-parser
 npm install dayjs
 npm install @ant-design/charts
 
