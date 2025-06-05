@@ -1,8 +1,8 @@
 import React from 'react';
 import { Layout } from 'antd';
 import { Outlet } from 'react-router-dom';
-import AppHeader from './AppHeader';
-import AppFooter from './AppFooter';
+import AppHeader from './AppHeader.jsx';
+import AppFooter from './AppFooter.jsx';
 
 const { Content } = Layout;
 
