@@ -2,6 +2,8 @@ import React from 'react';
 import { Layout, Menu } from 'antd';
 import { Link, useLocation } from 'react-router-dom';
 
+import logoSite from '../../assets/images/logo_site.png';
+
 const { Header } = Layout;
 
 const AppHeader = () => {
@@ -20,7 +22,7 @@ const AppHeader = () => {
     <Header className="app-header">
       <div className="header-container">
         <Link to="/" className="logo">
-          <img src="/images/logo.png" alt="Viễn thông ACT" />
+          <img src={logoSite} alt="Viễn thông ACT" />
         </Link>
         <Menu mode="horizontal" selectedKeys={[location.pathname]} className="desktop-menu">
           {menuItems.map(item => (
