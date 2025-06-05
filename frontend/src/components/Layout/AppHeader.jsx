@@ -3,6 +3,7 @@ import { Layout, Menu } from 'antd';
 import { Link, useLocation } from 'react-router-dom';
 
 import logoSite from '../../assets/images/logo_site.png';
+import './AppHeader.less';
 
 const { Header } = Layout;
 
